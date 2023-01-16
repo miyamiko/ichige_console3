@@ -6,7 +6,7 @@ import japanize_matplotlib
 st.title('イチゲブログのGoogle Search Console検索データ分析')
 st.caption('イチゲブログのGoogle Search Consoleで検索データを月ごとにExcelで取り出し表示できるようにしました。クエリを2つ選んで月ごとの検索順位が分かります。')
 st.markdown('###### 詳細は')
-link = '[イチゲブログ](https://kikuichige.com/17288/)'
+link = '[イチゲブログ](https://kikuichige.com/17379/)'
 st.markdown(link, unsafe_allow_html=True)
 
 #ichige_sconsole.csvをデータフレームで開く
