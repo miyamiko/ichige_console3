@@ -122,6 +122,9 @@ with st.form(key='profile_form'):
         ax.plot(df_b4['日付'],df_b4[selected_query1],label=selected_query1,marker='o')
         ax.set_title('イチゲブログ検索ワード別検索順位')
         ax.set_xlabel('日付')
+        #x軸ラベル60度傾ける
+        for tick in ax.get_xticklabels():
+            tick.set_rotation(60)
         #y軸ラベル横書き
         ax.set_ylabel('検索順位',rotation='horizontal')
         ax.grid()
